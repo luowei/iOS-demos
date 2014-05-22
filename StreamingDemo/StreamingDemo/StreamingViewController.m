@@ -25,9 +25,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-	
+
 - (IBAction)play:(id)sender {
-    NSURL *url = [NSURL URLWithString:@"http://movies.apple.com/media/us/html5/showcase/2011/demos/apple-html5-demo-tron-us_848x352.m4v"];
+    NSURL *url = [NSURL URLWithString:@"http://v.youku.com/v_show/id_XNzE0OTQ3OTky.html"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [_video loadRequest:request];
 }
