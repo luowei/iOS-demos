@@ -1,8 +1,8 @@
 PListDemo
 =========
 
-plist读写操作的示例程序。。
+	程序。。
 
 
-![PListDemo](https://raw.githubusercontent.com/luowei/iOS-demos/master/PListDemo/doc/a.png)
-![PListDemo](https://raw.githubusercontent.com/luowei/iOS-demos/master/PListDemo/doc/b.png)
+![PListDemo](https://raw.githubusercontent.com/luowei/iOS-demos/master/PListsDemo/doc/a.png）
+![PListDemo](https://raw.githubusercontent.com/luowei/iOS-demos/master/PListsDemo/doc/b.png)
