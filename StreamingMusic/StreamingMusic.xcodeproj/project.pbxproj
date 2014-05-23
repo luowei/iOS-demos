@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAF3AE0D192ED756001C8AC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3AE0C192ED756001C8AC3 /* UIKit.framework */; };
+		EAF3AE0F192ED756001C8AC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3AE0E192ED756001C8AC3 /* Foundation.framework */; };
+		EAF3AE11192ED756001C8AC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF3AE10192ED756001C8AC3 /* CoreGraphics.framework */; };
+		EAF3AE17192ED756001C8AC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAF3AE15192ED756001C8AC3 /* InfoPlist.strings */; };
+		EAF3AE19192ED756001C8AC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3AE18192ED756001C8AC3 /* main.m */; };
+		EAF3AE1D192ED756001C8AC3 /* StreamingMusicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3AE1C192ED756001C8AC3 /* StreamingMusicAppDelegate.m */; };
+		EAF3AE1F192ED756001C8AC3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF3AE1E192ED756001C8AC3 /* Default.png */; };
+		EAF3AE21192ED756001C8AC3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF3AE20192ED756001C8AC3 /* Default@2x.png */; };
+		EAF3AE23192ED756001C8AC3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF3AE22192ED756001C8AC3 /* Default-568h@2x.png */; };
+		EAF3AE26192ED756001C8AC3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF3AE24192ED756001C8AC3 /* MainStoryboard.storyboard */; };
+		EAF3AE29192ED756001C8AC3 /* StreamingMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF3AE28192ED756001C8AC3 /* StreamingMusicViewController.m */; };
+		EAF3AE30192EDA52001C8AC3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EAF3AE2F192EDA52001C8AC3 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAF3AE09192ED756001C8AC3 /* StreamingMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamingMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF3AE0C192ED756001C8AC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAF3AE0E192ED756001C8AC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAF3AE10192ED756001C8AC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAF3AE14192ED756001C8AC3 /* StreamingMusic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StreamingMusic-Info.plist"; sourceTree = "<group>"; };
+		EAF3AE16192ED756001C8AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAF3AE18192ED756001C8AC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAF3AE1A192ED756001C8AC3 /* StreamingMusic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StreamingMusic-Prefix.pch"; sourceTree = "<group>"; };
+		EAF3AE1B192ED756001C8AC3 /* StreamingMusicAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StreamingMusicAppDelegate.h; sourceTree = "<group>"; };
+		EAF3AE1C192ED756001C8AC3 /* StreamingMusicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamingMusicAppDelegate.m; sourceTree = "<group>"; };
+		EAF3AE1E192ED756001C8AC3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EAF3AE20192ED756001C8AC3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EAF3AE22192ED756001C8AC3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EAF3AE25192ED756001C8AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EAF3AE27192ED756001C8AC3 /* StreamingMusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StreamingMusicViewController.h; sourceTree = "<group>"; };
+		EAF3AE28192ED756001C8AC3 /* StreamingMusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamingMusicViewController.m; sourceTree = "<group>"; };
+		EAF3AE2F192EDA52001C8AC3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAF3AE06192ED756001C8AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF3AE0D192ED756001C8AC3 /* UIKit.framework in Frameworks */,
+				EAF3AE0F192ED756001C8AC3 /* Foundation.framework in Frameworks */,
+				EAF3AE11192ED756001C8AC3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAF3AE00192ED756001C8AC3 = {
+			isa = PBXGroup;
+			children = (
+				EAF3AE2F192EDA52001C8AC3 /* README.md */,
+				EAF3AE12192ED756001C8AC3 /* StreamingMusic */,
+				EAF3AE0B192ED756001C8AC3 /* Frameworks */,
+				EAF3AE0A192ED756001C8AC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF3AE0A192ED756001C8AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF3AE09192ED756001C8AC3 /* StreamingMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF3AE0B192ED756001C8AC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAF3AE0C192ED756001C8AC3 /* UIKit.framework */,
+				EAF3AE0E192ED756001C8AC3 /* Foundation.framework */,
+				EAF3AE10192ED756001C8AC3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAF3AE12192ED756001C8AC3 /* StreamingMusic */ = {
+			isa = PBXGroup;
+			children = (
+				EAF3AE1B192ED756001C8AC3 /* StreamingMusicAppDelegate.h */,
+				EAF3AE1C192ED756001C8AC3 /* StreamingMusicAppDelegate.m */,
+				EAF3AE24192ED756001C8AC3 /* MainStoryboard.storyboard */,
+				EAF3AE27192ED756001C8AC3 /* StreamingMusicViewController.h */,
+				EAF3AE28192ED756001C8AC3 /* StreamingMusicViewController.m */,
+				EAF3AE13192ED756001C8AC3 /* Supporting Files */,
+			);
+			path = StreamingMusic;
+			sourceTree = "<group>";
+		};
+		EAF3AE13192ED756001C8AC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF3AE14192ED756001C8AC3 /* StreamingMusic-Info.plist */,
+				EAF3AE15192ED756001C8AC3 /* InfoPlist.strings */,
+				EAF3AE18192ED756001C8AC3 /* main.m */,
+				EAF3AE1A192ED756001C8AC3 /* StreamingMusic-Prefix.pch */,
+				EAF3AE1E192ED756001C8AC3 /* Default.png */,
+				EAF3AE20192ED756001C8AC3 /* Default@2x.png */,
+				EAF3AE22192ED756001C8AC3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAF3AE08192ED756001C8AC3 /* StreamingMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF3AE2C192ED756001C8AC3 /* Build configuration list for PBXNativeTarget "StreamingMusic" */;
+			buildPhases = (
+				EAF3AE05192ED756001C8AC3 /* Sources */,
+				EAF3AE06192ED756001C8AC3 /* Frameworks */,
+				EAF3AE07192ED756001C8AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreamingMusic;
+			productName = StreamingMusic;
+			productReference = EAF3AE09192ED756001C8AC3 /* StreamingMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF3AE01192ED756001C8AC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = StreamingMusic;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = rootls;
+			};
+			buildConfigurationList = EAF3AE04192ED756001C8AC3 /* Build configuration list for PBXProject "StreamingMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAF3AE00192ED756001C8AC3;
+			productRefGroup = EAF3AE0A192ED756001C8AC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF3AE08192ED756001C8AC3 /* StreamingMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAF3AE07192ED756001C8AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF3AE17192ED756001C8AC3 /* InfoPlist.strings in Resources */,
+				EAF3AE1F192ED756001C8AC3 /* Default.png in Resources */,
+				EAF3AE21192ED756001C8AC3 /* Default@2x.png in Resources */,
+				EAF3AE23192ED756001C8AC3 /* Default-568h@2x.png in Resources */,
+				EAF3AE26192ED756001C8AC3 /* MainStoryboard.storyboard in Resources */,
+				EAF3AE30192EDA52001C8AC3 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAF3AE05192ED756001C8AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF3AE19192ED756001C8AC3 /* main.m in Sources */,
+				EAF3AE1D192ED756001C8AC3 /* StreamingMusicAppDelegate.m in Sources */,
+				EAF3AE29192ED756001C8AC3 /* StreamingMusicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAF3AE15192ED756001C8AC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF3AE16192ED756001C8AC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAF3AE24192ED756001C8AC3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF3AE25192ED756001C8AC3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAF3AE2A192ED756001C8AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAF3AE2B192ED756001C8AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAF3AE2D192ED756001C8AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StreamingMusic/StreamingMusic-Prefix.pch";
+				INFOPLIST_FILE = "StreamingMusic/StreamingMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAF3AE2E192ED756001C8AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StreamingMusic/StreamingMusic-Prefix.pch";
+				INFOPLIST_FILE = "StreamingMusic/StreamingMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAF3AE04192ED756001C8AC3 /* Build configuration list for PBXProject "StreamingMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF3AE2A192ED756001C8AC3 /* Debug */,
+				EAF3AE2B192ED756001C8AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF3AE2C192ED756001C8AC3 /* Build configuration list for PBXNativeTarget "StreamingMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF3AE2D192ED756001C8AC3 /* Debug */,
+				EAF3AE2E192ED756001C8AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAF3AE01192ED756001C8AC3 /* Project object */;
+}
