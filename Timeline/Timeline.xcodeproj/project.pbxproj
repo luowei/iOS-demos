@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA125D1D19306F0600F336D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA125D1C19306F0600F336D8 /* Foundation.framework */; };
+		EA125D1F19306F0600F336D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA125D1E19306F0600F336D8 /* CoreGraphics.framework */; };
+		EA125D2119306F0600F336D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA125D2019306F0600F336D8 /* UIKit.framework */; };
+		EA125D2719306F0600F336D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA125D2519306F0600F336D8 /* InfoPlist.strings */; };
+		EA125D2919306F0600F336D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA125D2819306F0600F336D8 /* main.m */; };
+		EA125D2D19306F0600F336D8 /* TimelineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA125D2C19306F0600F336D8 /* TimelineAppDelegate.m */; };
+		EA125D3019306F0600F336D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA125D2E19306F0600F336D8 /* Main.storyboard */; };
+		EA125D3319306F0700F336D8 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA125D3219306F0700F336D8 /* TimelineViewController.m */; };
+		EA125D3519306F0700F336D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA125D3419306F0700F336D8 /* Images.xcassets */; };
+		EA125D3C19306F0700F336D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA125D3B19306F0700F336D8 /* XCTest.framework */; };
+		EA125D3D19306F0700F336D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA125D1C19306F0600F336D8 /* Foundation.framework */; };
+		EA125D3E19306F0700F336D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA125D2019306F0600F336D8 /* UIKit.framework */; };
+		EA125D4619306F0700F336D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA125D4419306F0700F336D8 /* InfoPlist.strings */; };
+		EA125D4819306F0700F336D8 /* TimelineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA125D4719306F0700F336D8 /* TimelineTests.m */; };
+		EA125D5219306FD700F336D8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA125D5119306FD700F336D8 /* Accounts.framework */; };
+		EA125D5419306FE400F336D8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA125D5319306FE400F336D8 /* Social.framework */; };
+		EA3940F319309366003EF201 /* TencentWeibo_appid.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA3940F219309366003EF201 /* TencentWeibo_appid.txt */; };
+		EA3940F519309384003EF201 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EA3940F419309384003EF201 /* README.md */; };
+		EA3940F719309A9B003EF201 /* doc in Resources */ = {isa = PBXBuildFile; fileRef = EA3940F619309A9B003EF201 /* doc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA125D3F19306F0700F336D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA125D1119306F0600F336D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA125D1819306F0600F336D8;
+			remoteInfo = Timeline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA125D1919306F0600F336D8 /* Timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA125D1C19306F0600F336D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA125D1E19306F0600F336D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA125D2019306F0600F336D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA125D2419306F0600F336D8 /* Timeline-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timeline-Info.plist"; sourceTree = "<group>"; };
+		EA125D2619306F0600F336D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA125D2819306F0600F336D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA125D2A19306F0600F336D8 /* Timeline-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timeline-Prefix.pch"; sourceTree = "<group>"; };
+		EA125D2B19306F0600F336D8 /* TimelineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimelineAppDelegate.h; sourceTree = "<group>"; };
+		EA125D2C19306F0600F336D8 /* TimelineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimelineAppDelegate.m; sourceTree = "<group>"; };
+		EA125D2F19306F0600F336D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA125D3119306F0600F336D8 /* TimelineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		EA125D3219306F0700F336D8 /* TimelineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		EA125D3419306F0700F336D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA125D3A19306F0700F336D8 /* TimelineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimelineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA125D3B19306F0700F336D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA125D4319306F0700F336D8 /* TimelineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimelineTests-Info.plist"; sourceTree = "<group>"; };
+		EA125D4519306F0700F336D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA125D4719306F0700F336D8 /* TimelineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimelineTests.m; sourceTree = "<group>"; };
+		EA125D5119306FD700F336D8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		EA125D5319306FE400F336D8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EA3940F219309366003EF201 /* TencentWeibo_appid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TencentWeibo_appid.txt; sourceTree = "<group>"; };
+		EA3940F419309384003EF201 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		EA3940F619309A9B003EF201 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA125D1619306F0600F336D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA125D5419306FE400F336D8 /* Social.framework in Frameworks */,
+				EA125D5219306FD700F336D8 /* Accounts.framework in Frameworks */,
+				EA125D1F19306F0600F336D8 /* CoreGraphics.framework in Frameworks */,
+				EA125D2119306F0600F336D8 /* UIKit.framework in Frameworks */,
+				EA125D1D19306F0600F336D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA125D3719306F0700F336D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA125D3C19306F0700F336D8 /* XCTest.framework in Frameworks */,
+				EA125D3E19306F0700F336D8 /* UIKit.framework in Frameworks */,
+				EA125D3D19306F0700F336D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA125D1019306F0600F336D8 = {
+			isa = PBXGroup;
+			children = (
+				EA3940F419309384003EF201 /* README.md */,
+				EA125D2219306F0600F336D8 /* Timeline */,
+				EA125D4119306F0700F336D8 /* TimelineTests */,
+				EA125D1B19306F0600F336D8 /* Frameworks */,
+				EA125D1A19306F0600F336D8 /* Products */,
+				EA3940F219309366003EF201 /* TencentWeibo_appid.txt */,
+				EA3940F619309A9B003EF201 /* doc */,
+			);
+			sourceTree = "<group>";
+		};
+		EA125D1A19306F0600F336D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA125D1919306F0600F336D8 /* Timeline.app */,
+				EA125D3A19306F0700F336D8 /* TimelineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA125D1B19306F0600F336D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA125D5319306FE400F336D8 /* Social.framework */,
+				EA125D5119306FD700F336D8 /* Accounts.framework */,
+				EA125D1C19306F0600F336D8 /* Foundation.framework */,
+				EA125D1E19306F0600F336D8 /* CoreGraphics.framework */,
+				EA125D2019306F0600F336D8 /* UIKit.framework */,
+				EA125D3B19306F0700F336D8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA125D2219306F0600F336D8 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				EA125D2B19306F0600F336D8 /* TimelineAppDelegate.h */,
+				EA125D2C19306F0600F336D8 /* TimelineAppDelegate.m */,
+				EA125D2E19306F0600F336D8 /* Main.storyboard */,
+				EA125D3119306F0600F336D8 /* TimelineViewController.h */,
+				EA125D3219306F0700F336D8 /* TimelineViewController.m */,
+				EA125D3419306F0700F336D8 /* Images.xcassets */,
+				EA125D2319306F0600F336D8 /* Supporting Files */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		EA125D2319306F0600F336D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA125D2419306F0600F336D8 /* Timeline-Info.plist */,
+				EA125D2519306F0600F336D8 /* InfoPlist.strings */,
+				EA125D2819306F0600F336D8 /* main.m */,
+				EA125D2A19306F0600F336D8 /* Timeline-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA125D4119306F0700F336D8 /* TimelineTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA125D4719306F0700F336D8 /* TimelineTests.m */,
+				EA125D4219306F0700F336D8 /* Supporting Files */,
+			);
+			path = TimelineTests;
+			sourceTree = "<group>";
+		};
+		EA125D4219306F0700F336D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA125D4319306F0700F336D8 /* TimelineTests-Info.plist */,
+				EA125D4419306F0700F336D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA125D1819306F0600F336D8 /* Timeline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA125D4B19306F0700F336D8 /* Build configuration list for PBXNativeTarget "Timeline" */;
+			buildPhases = (
+				EA125D1519306F0600F336D8 /* Sources */,
+				EA125D1619306F0600F336D8 /* Frameworks */,
+				EA125D1719306F0600F336D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timeline;
+			productName = Timeline;
+			productReference = EA125D1919306F0600F336D8 /* Timeline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA125D3919306F0700F336D8 /* TimelineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA125D4E19306F0700F336D8 /* Build configuration list for PBXNativeTarget "TimelineTests" */;
+			buildPhases = (
+				EA125D3619306F0700F336D8 /* Sources */,
+				EA125D3719306F0700F336D8 /* Frameworks */,
+				EA125D3819306F0700F336D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA125D4019306F0700F336D8 /* PBXTargetDependency */,
+			);
+			name = TimelineTests;
+			productName = TimelineTests;
+			productReference = EA125D3A19306F0700F336D8 /* TimelineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA125D1119306F0600F336D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Timeline;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = rootls;
+				TargetAttributes = {
+					EA125D3919306F0700F336D8 = {
+						TestTargetID = EA125D1819306F0600F336D8;
+					};
+				};
+			};
+			buildConfigurationList = EA125D1419306F0600F336D8 /* Build configuration list for PBXProject "Timeline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA125D1019306F0600F336D8;
+			productRefGroup = EA125D1A19306F0600F336D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA125D1819306F0600F336D8 /* Timeline */,
+				EA125D3919306F0700F336D8 /* TimelineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA125D1719306F0600F336D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3940F319309366003EF201 /* TencentWeibo_appid.txt in Resources */,
+				EA125D3519306F0700F336D8 /* Images.xcassets in Resources */,
+				EA3940F519309384003EF201 /* README.md in Resources */,
+				EA3940F719309A9B003EF201 /* doc in Resources */,
+				EA125D2719306F0600F336D8 /* InfoPlist.strings in Resources */,
+				EA125D3019306F0600F336D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA125D3819306F0700F336D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA125D4619306F0700F336D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA125D1519306F0600F336D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA125D2919306F0600F336D8 /* main.m in Sources */,
+				EA125D2D19306F0600F336D8 /* TimelineAppDelegate.m in Sources */,
+				EA125D3319306F0700F336D8 /* TimelineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA125D3619306F0700F336D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA125D4819306F0700F336D8 /* TimelineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA125D4019306F0700F336D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA125D1819306F0600F336D8 /* Timeline */;
+			targetProxy = EA125D3F19306F0700F336D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA125D2519306F0600F336D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA125D2619306F0600F336D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA125D2E19306F0600F336D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA125D2F19306F0600F336D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA125D4419306F0700F336D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA125D4519306F0700F336D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA125D4919306F0700F336D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA125D4A19306F0700F336D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA125D4C19306F0700F336D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timeline/Timeline-Prefix.pch";
+				INFOPLIST_FILE = "Timeline/Timeline-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA125D4D19306F0700F336D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timeline/Timeline-Prefix.pch";
+				INFOPLIST_FILE = "Timeline/Timeline-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA125D4F19306F0700F336D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Timeline.app/Timeline";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timeline/Timeline-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimelineTests/TimelineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA125D5019306F0700F336D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Timeline.app/Timeline";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timeline/Timeline-Prefix.pch";
+				INFOPLIST_FILE = "TimelineTests/TimelineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA125D1419306F0600F336D8 /* Build configuration list for PBXProject "Timeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA125D4919306F0700F336D8 /* Debug */,
+				EA125D4A19306F0700F336D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA125D4B19306F0700F336D8 /* Build configuration list for PBXNativeTarget "Timeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA125D4C19306F0700F336D8 /* Debug */,
+				EA125D4D19306F0700F336D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA125D4E19306F0700F336D8 /* Build configuration list for PBXNativeTarget "TimelineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA125D4F19306F0700F336D8 /* Debug */,
+				EA125D5019306F0700F336D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA125D1119306F0600F336D8 /* Project object */;
+}
