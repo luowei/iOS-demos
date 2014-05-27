@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA6121A91933163300309C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6121A81933163300309C01 /* Foundation.framework */; };
+		EA6121AB1933163300309C01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6121AA1933163300309C01 /* CoreGraphics.framework */; };
+		EA6121AD1933163300309C01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6121AC1933163300309C01 /* UIKit.framework */; };
+		EA6121B31933163300309C01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA6121B11933163300309C01 /* InfoPlist.strings */; };
+		EA6121B51933163300309C01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6121B41933163300309C01 /* main.m */; };
+		EA6121B91933163300309C01 /* PDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6121B81933163300309C01 /* PDAppDelegate.m */; };
+		EA6121BC1933163300309C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6121BA1933163300309C01 /* Main.storyboard */; };
+		EA6121BF1933163300309C01 /* PDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6121BE1933163300309C01 /* PDViewController.m */; };
+		EA6121C11933163300309C01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6121C01933163300309C01 /* Images.xcassets */; };
+		EA6121C81933163300309C01 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6121C71933163300309C01 /* XCTest.framework */; };
+		EA6121C91933163300309C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6121A81933163300309C01 /* Foundation.framework */; };
+		EA6121CA1933163300309C01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6121AC1933163300309C01 /* UIKit.framework */; };
+		EA6121D21933163300309C01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA6121D01933163300309C01 /* InfoPlist.strings */; };
+		EA6121D41933163300309C01 /* PassingDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6121D31933163300309C01 /* PassingDataTests.m */; };
+		EA6121DF1933190700309C01 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6121DE1933190700309C01 /* NewViewController.m */; };
+		EA6121E1193320B800309C01 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EA6121E0193320B800309C01 /* README.md */; };
+		EA6121E31933213100309C01 /* doc in Resources */ = {isa = PBXBuildFile; fileRef = EA6121E21933213100309C01 /* doc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA6121CB1933163300309C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA61219D1933163300309C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6121A41933163300309C01;
+			remoteInfo = PassingData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA6121A51933163300309C01 /* PassingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassingData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6121A81933163300309C01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA6121AA1933163300309C01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA6121AC1933163300309C01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA6121B01933163300309C01 /* PassingData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassingData-Info.plist"; sourceTree = "<group>"; };
+		EA6121B21933163300309C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA6121B41933163300309C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA6121B61933163300309C01 /* PassingData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PassingData-Prefix.pch"; sourceTree = "<group>"; };
+		EA6121B71933163300309C01 /* PDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDAppDelegate.h; sourceTree = "<group>"; };
+		EA6121B81933163300309C01 /* PDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDAppDelegate.m; sourceTree = "<group>"; };
+		EA6121BB1933163300309C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA6121BD1933163300309C01 /* PDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDViewController.h; sourceTree = "<group>"; };
+		EA6121BE1933163300309C01 /* PDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDViewController.m; sourceTree = "<group>"; };
+		EA6121C01933163300309C01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA6121C61933163300309C01 /* PassingDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassingDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6121C71933163300309C01 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA6121CF1933163300309C01 /* PassingDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassingDataTests-Info.plist"; sourceTree = "<group>"; };
+		EA6121D11933163300309C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA6121D31933163300309C01 /* PassingDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassingDataTests.m; sourceTree = "<group>"; };
+		EA6121DD1933190700309C01 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		EA6121DE1933190700309C01 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		EA6121E0193320B800309C01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		EA6121E21933213100309C01 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA6121A21933163300309C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6121AB1933163300309C01 /* CoreGraphics.framework in Frameworks */,
+				EA6121AD1933163300309C01 /* UIKit.framework in Frameworks */,
+				EA6121A91933163300309C01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6121C31933163300309C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6121C81933163300309C01 /* XCTest.framework in Frameworks */,
+				EA6121CA1933163300309C01 /* UIKit.framework in Frameworks */,
+				EA6121C91933163300309C01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA61219C1933163300309C01 = {
+			isa = PBXGroup;
+			children = (
+				EA6121E0193320B800309C01 /* README.md */,
+				EA6121AE1933163300309C01 /* PassingData */,
+				EA6121CD1933163300309C01 /* PassingDataTests */,
+				EA6121A71933163300309C01 /* Frameworks */,
+				EA6121A61933163300309C01 /* Products */,
+				EA6121E21933213100309C01 /* doc */,
+			);
+			sourceTree = "<group>";
+		};
+		EA6121A61933163300309C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA6121A51933163300309C01 /* PassingData.app */,
+				EA6121C61933163300309C01 /* PassingDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA6121A71933163300309C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA6121A81933163300309C01 /* Foundation.framework */,
+				EA6121AA1933163300309C01 /* CoreGraphics.framework */,
+				EA6121AC1933163300309C01 /* UIKit.framework */,
+				EA6121C71933163300309C01 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA6121AE1933163300309C01 /* PassingData */ = {
+			isa = PBXGroup;
+			children = (
+				EA6121B71933163300309C01 /* PDAppDelegate.h */,
+				EA6121B81933163300309C01 /* PDAppDelegate.m */,
+				EA6121BA1933163300309C01 /* Main.storyboard */,
+				EA6121BD1933163300309C01 /* PDViewController.h */,
+				EA6121BE1933163300309C01 /* PDViewController.m */,
+				EA6121C01933163300309C01 /* Images.xcassets */,
+				EA6121DD1933190700309C01 /* NewViewController.h */,
+				EA6121DE1933190700309C01 /* NewViewController.m */,
+				EA6121AF1933163300309C01 /* Supporting Files */,
+			);
+			path = PassingData;
+			sourceTree = "<group>";
+		};
+		EA6121AF1933163300309C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA6121B01933163300309C01 /* PassingData-Info.plist */,
+				EA6121B11933163300309C01 /* InfoPlist.strings */,
+				EA6121B41933163300309C01 /* main.m */,
+				EA6121B61933163300309C01 /* PassingData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA6121CD1933163300309C01 /* PassingDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA6121D31933163300309C01 /* PassingDataTests.m */,
+				EA6121CE1933163300309C01 /* Supporting Files */,
+			);
+			path = PassingDataTests;
+			sourceTree = "<group>";
+		};
+		EA6121CE1933163300309C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA6121CF1933163300309C01 /* PassingDataTests-Info.plist */,
+				EA6121D01933163300309C01 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA6121A41933163300309C01 /* PassingData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6121D71933163300309C01 /* Build configuration list for PBXNativeTarget "PassingData" */;
+			buildPhases = (
+				EA6121A11933163300309C01 /* Sources */,
+				EA6121A21933163300309C01 /* Frameworks */,
+				EA6121A31933163300309C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassingData;
+			productName = PassingData;
+			productReference = EA6121A51933163300309C01 /* PassingData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA6121C51933163300309C01 /* PassingDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6121DA1933163300309C01 /* Build configuration list for PBXNativeTarget "PassingDataTests" */;
+			buildPhases = (
+				EA6121C21933163300309C01 /* Sources */,
+				EA6121C31933163300309C01 /* Frameworks */,
+				EA6121C41933163300309C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA6121CC1933163300309C01 /* PBXTargetDependency */,
+			);
+			name = PassingDataTests;
+			productName = PassingDataTests;
+			productReference = EA6121C61933163300309C01 /* PassingDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA61219D1933163300309C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = rootls;
+				TargetAttributes = {
+					EA6121C51933163300309C01 = {
+						TestTargetID = EA6121A41933163300309C01;
+					};
+				};
+			};
+			buildConfigurationList = EA6121A01933163300309C01 /* Build configuration list for PBXProject "PassingData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA61219C1933163300309C01;
+			productRefGroup = EA6121A61933163300309C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA6121A41933163300309C01 /* PassingData */,
+				EA6121C51933163300309C01 /* PassingDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA6121A31933163300309C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6121E31933213100309C01 /* doc in Resources */,
+				EA6121C11933163300309C01 /* Images.xcassets in Resources */,
+				EA6121B31933163300309C01 /* InfoPlist.strings in Resources */,
+				EA6121E1193320B800309C01 /* README.md in Resources */,
+				EA6121BC1933163300309C01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6121C41933163300309C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6121D21933163300309C01 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA6121A11933163300309C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6121B91933163300309C01 /* PDAppDelegate.m in Sources */,
+				EA6121BF1933163300309C01 /* PDViewController.m in Sources */,
+				EA6121B51933163300309C01 /* main.m in Sources */,
+				EA6121DF1933190700309C01 /* NewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6121C21933163300309C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6121D41933163300309C01 /* PassingDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA6121CC1933163300309C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA6121A41933163300309C01 /* PassingData */;
+			targetProxy = EA6121CB1933163300309C01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA6121B11933163300309C01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA6121B21933163300309C01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA6121BA1933163300309C01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA6121BB1933163300309C01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA6121D01933163300309C01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA6121D11933163300309C01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA6121D51933163300309C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA6121D61933163300309C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA6121D81933163300309C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassingData/PassingData-Prefix.pch";
+				INFOPLIST_FILE = "PassingData/PassingData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA6121D91933163300309C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassingData/PassingData-Prefix.pch";
+				INFOPLIST_FILE = "PassingData/PassingData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA6121DB1933163300309C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PassingData.app/PassingData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassingData/PassingData-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PassingDataTests/PassingDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA6121DC1933163300309C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PassingData.app/PassingData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassingData/PassingData-Prefix.pch";
+				INFOPLIST_FILE = "PassingDataTests/PassingDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA6121A01933163300309C01 /* Build configuration list for PBXProject "PassingData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6121D51933163300309C01 /* Debug */,
+				EA6121D61933163300309C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6121D71933163300309C01 /* Build configuration list for PBXNativeTarget "PassingData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6121D81933163300309C01 /* Debug */,
+				EA6121D91933163300309C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA6121DA1933163300309C01 /* Build configuration list for PBXNativeTarget "PassingDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6121DB1933163300309C01 /* Debug */,
+				EA6121DC1933163300309C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA61219D1933163300309C01 /* Project object */;
+}
