@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAEF20B31937089600332223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEF20B21937089600332223 /* Foundation.framework */; };
+		EAEF20B51937089600332223 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEF20B41937089600332223 /* CoreGraphics.framework */; };
+		EAEF20B71937089600332223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEF20B61937089600332223 /* UIKit.framework */; };
+		EAEF20BD1937089600332223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAEF20BB1937089600332223 /* InfoPlist.strings */; };
+		EAEF20BF1937089600332223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEF20BE1937089600332223 /* main.m */; };
+		EAEF20C31937089600332223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEF20C21937089600332223 /* AppDelegate.m */; };
+		EAEF20C61937089600332223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAEF20C41937089600332223 /* Main.storyboard */; };
+		EAEF20C91937089600332223 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEF20C81937089600332223 /* ViewController.m */; };
+		EAEF20CB1937089600332223 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAEF20CA1937089600332223 /* Images.xcassets */; };
+		EAEF20D21937089600332223 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEF20D11937089600332223 /* XCTest.framework */; };
+		EAEF20D31937089600332223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEF20B21937089600332223 /* Foundation.framework */; };
+		EAEF20D41937089600332223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEF20B61937089600332223 /* UIKit.framework */; };
+		EAEF20DC1937089600332223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAEF20DA1937089600332223 /* InfoPlist.strings */; };
+		EAEF20DE1937089600332223 /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEF20DD1937089600332223 /* CoreDataTests.m */; };
+		EAEF20E8193708B800332223 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EAEF20E7193708B800332223 /* README.md */; };
+		EAEF20EA19370C5800332223 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEF20E919370C5800332223 /* CoreData.framework */; };
+		EAEF20ED19371D4C00332223 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAEF20EB19371D4C00332223 /* Model.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAEF20D51937089600332223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAEF20A71937089500332223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAEF20AE1937089600332223;
+			remoteInfo = CoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAEF20AF1937089600332223 /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEF20B21937089600332223 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAEF20B41937089600332223 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAEF20B61937089600332223 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAEF20BA1937089600332223 /* CoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreData-Info.plist"; sourceTree = "<group>"; };
+		EAEF20BC1937089600332223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAEF20BE1937089600332223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAEF20C01937089600332223 /* CoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreData-Prefix.pch"; sourceTree = "<group>"; };
+		EAEF20C11937089600332223 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAEF20C21937089600332223 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAEF20C51937089600332223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAEF20C71937089600332223 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAEF20C81937089600332223 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAEF20CA1937089600332223 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAEF20D01937089600332223 /* CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEF20D11937089600332223 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EAEF20D91937089600332223 /* CoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataTests-Info.plist"; sourceTree = "<group>"; };
+		EAEF20DB1937089600332223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAEF20DD1937089600332223 /* CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTests.m; sourceTree = "<group>"; };
+		EAEF20E7193708B800332223 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		EAEF20E919370C5800332223 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EAEF20EC19371D4C00332223 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAEF20AC1937089600332223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEF20EA19370C5800332223 /* CoreData.framework in Frameworks */,
+				EAEF20B51937089600332223 /* CoreGraphics.framework in Frameworks */,
+				EAEF20B71937089600332223 /* UIKit.framework in Frameworks */,
+				EAEF20B31937089600332223 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEF20CD1937089600332223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEF20D21937089600332223 /* XCTest.framework in Frameworks */,
+				EAEF20D41937089600332223 /* UIKit.framework in Frameworks */,
+				EAEF20D31937089600332223 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAEF20A61937089500332223 = {
+			isa = PBXGroup;
+			children = (
+				EAEF20E7193708B800332223 /* README.md */,
+				EAEF20B81937089600332223 /* CoreData */,
+				EAEF20D71937089600332223 /* CoreDataTests */,
+				EAEF20B11937089600332223 /* Frameworks */,
+				EAEF20B01937089600332223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAEF20B01937089600332223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAEF20AF1937089600332223 /* CoreData.app */,
+				EAEF20D01937089600332223 /* CoreDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAEF20B11937089600332223 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAEF20E919370C5800332223 /* CoreData.framework */,
+				EAEF20B21937089600332223 /* Foundation.framework */,
+				EAEF20B41937089600332223 /* CoreGraphics.framework */,
+				EAEF20B61937089600332223 /* UIKit.framework */,
+				EAEF20D11937089600332223 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAEF20B81937089600332223 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EAEF20C11937089600332223 /* AppDelegate.h */,
+				EAEF20C21937089600332223 /* AppDelegate.m */,
+				EAEF20C41937089600332223 /* Main.storyboard */,
+				EAEF20C71937089600332223 /* ViewController.h */,
+				EAEF20C81937089600332223 /* ViewController.m */,
+				EAEF20EB19371D4C00332223 /* Model.xcdatamodeld */,
+				EAEF20CA1937089600332223 /* Images.xcassets */,
+				EAEF20B91937089600332223 /* Supporting Files */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		EAEF20B91937089600332223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAEF20BA1937089600332223 /* CoreData-Info.plist */,
+				EAEF20BB1937089600332223 /* InfoPlist.strings */,
+				EAEF20BE1937089600332223 /* main.m */,
+				EAEF20C01937089600332223 /* CoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAEF20D71937089600332223 /* CoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAEF20DD1937089600332223 /* CoreDataTests.m */,
+				EAEF20D81937089600332223 /* Supporting Files */,
+			);
+			path = CoreDataTests;
+			sourceTree = "<group>";
+		};
+		EAEF20D81937089600332223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAEF20D91937089600332223 /* CoreDataTests-Info.plist */,
+				EAEF20DA1937089600332223 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAEF20AE1937089600332223 /* CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEF20E11937089600332223 /* Build configuration list for PBXNativeTarget "CoreData" */;
+			buildPhases = (
+				EAEF20AB1937089600332223 /* Sources */,
+				EAEF20AC1937089600332223 /* Frameworks */,
+				EAEF20AD1937089600332223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreData;
+			productName = CoreData;
+			productReference = EAEF20AF1937089600332223 /* CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAEF20CF1937089600332223 /* CoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEF20E41937089600332223 /* Build configuration list for PBXNativeTarget "CoreDataTests" */;
+			buildPhases = (
+				EAEF20CC1937089600332223 /* Sources */,
+				EAEF20CD1937089600332223 /* Frameworks */,
+				EAEF20CE1937089600332223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAEF20D61937089600332223 /* PBXTargetDependency */,
+			);
+			name = CoreDataTests;
+			productName = CoreDataTests;
+			productReference = EAEF20D01937089600332223 /* CoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAEF20A71937089500332223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = rootls;
+				TargetAttributes = {
+					EAEF20CF1937089600332223 = {
+						TestTargetID = EAEF20AE1937089600332223;
+					};
+				};
+			};
+			buildConfigurationList = EAEF20AA1937089600332223 /* Build configuration list for PBXProject "CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAEF20A61937089500332223;
+			productRefGroup = EAEF20B01937089600332223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAEF20AE1937089600332223 /* CoreData */,
+				EAEF20CF1937089600332223 /* CoreDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAEF20AD1937089600332223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEF20CB1937089600332223 /* Images.xcassets in Resources */,
+				EAEF20BD1937089600332223 /* InfoPlist.strings in Resources */,
+				EAEF20E8193708B800332223 /* README.md in Resources */,
+				EAEF20C61937089600332223 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEF20CE1937089600332223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEF20DC1937089600332223 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAEF20AB1937089600332223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEF20C91937089600332223 /* ViewController.m in Sources */,
+				EAEF20C31937089600332223 /* AppDelegate.m in Sources */,
+				EAEF20BF1937089600332223 /* main.m in Sources */,
+				EAEF20ED19371D4C00332223 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEF20CC1937089600332223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEF20DE1937089600332223 /* CoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAEF20D61937089600332223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAEF20AE1937089600332223 /* CoreData */;
+			targetProxy = EAEF20D51937089600332223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAEF20BB1937089600332223 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAEF20BC1937089600332223 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAEF20C41937089600332223 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAEF20C51937089600332223 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAEF20DA1937089600332223 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAEF20DB1937089600332223 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAEF20DF1937089600332223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAEF20E01937089600332223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAEF20E21937089600332223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreData/CoreData-Prefix.pch";
+				INFOPLIST_FILE = "CoreData/CoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAEF20E31937089600332223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreData/CoreData-Prefix.pch";
+				INFOPLIST_FILE = "CoreData/CoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EAEF20E51937089600332223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreData.app/CoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreData/CoreData-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoreDataTests/CoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EAEF20E61937089600332223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreData.app/CoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreData/CoreData-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataTests/CoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAEF20AA1937089600332223 /* Build configuration list for PBXProject "CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEF20DF1937089600332223 /* Debug */,
+				EAEF20E01937089600332223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEF20E11937089600332223 /* Build configuration list for PBXNativeTarget "CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEF20E21937089600332223 /* Debug */,
+				EAEF20E31937089600332223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAEF20E41937089600332223 /* Build configuration list for PBXNativeTarget "CoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEF20E51937089600332223 /* Debug */,
+				EAEF20E61937089600332223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EAEF20EB19371D4C00332223 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAEF20EC19371D4C00332223 /* Model.xcdatamodel */,
+			);
+			currentVersion = EAEF20EC19371D4C00332223 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EAEF20A71937089500332223 /* Project object */;
+}
