@@ -24,8 +24,10 @@
 	
     //Get Request
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager GET:@"https://raw.githubusercontent.com/luowei/iOS-demos/master/JsonDemo/doc/example.json" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSLog(@"JSON: %@", responseObject);
+    [manager GET:@"http://note.youdao.com/yws/public/note/c316d3c1acc0452d8cd6d5d599824e13?keyfrom=public" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        self.posts = (NSDictionary *)responseObject;
+        self.post = self.posts[@"content"];
+        NSLog(@"JSON: %@", self.post);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
     }];
