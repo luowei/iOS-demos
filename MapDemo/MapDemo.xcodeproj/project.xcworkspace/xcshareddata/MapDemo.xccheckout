@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6F870EA9-0005-4F73-A26A-BCEDF2C1C19E</string>
+	<string>FB7C12D3-D72D-4CED-AE06-D50CE37893F9</string>
 	<key>IDESourceControlProjectName</key>
-	<string>DragDemo</string>
+	<string>MapDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A2458CE2-8C14-422D-852B-656582152705</key>
 		<string>https://github.com/luowei/iOS-demos.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DragDemo/DragDemo.xcodeproj/project.xcworkspace</string>
+	<string>MapDemo/MapDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A2458CE2-8C14-422D-852B-656582152705</key>

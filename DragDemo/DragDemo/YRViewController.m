@@ -75,6 +75,8 @@
         CGFloat deltaY = newPoint.y-startPoint.y;
         btn.center = CGPointMake(btn.center.x+deltaX,btn.center.y+deltaY);
         //NSLog(@"center = %@",NSStringFromCGPoint(btn.center));
+        
+        //返回btn移动到了哪个中按钮的框架内
         NSInteger index = [self indexOfPoint:btn.center withButton:btn];
         if (index<0)
         {
@@ -119,6 +121,7 @@
         UIButton *button = _itemArray[i];
         if (button != btn)
         {
+            //判断point是否在button的框架内
             if (CGRectContainsPoint(button.frame, point))
             {
                 return i;
