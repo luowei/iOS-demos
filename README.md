@@ -173,4 +173,7 @@ Slider调节图片色调示例程序。。
 
 ----------
 
+ - **[PlaySound](https://github.com/luowei/iOS-demos/tree/master/PlaySound)**
+播放声音示例。
 
+----------
