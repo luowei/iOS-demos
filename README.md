@@ -178,3 +178,8 @@ Slider调节图片色调示例程序。。
 播放声音示例。
 
 ----------
+
+ - **[DragDemo](https://github.com/luowei/iOS-demos/tree/master/DragDemo)**
+一个拖拽示例。
+
+----------
