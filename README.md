@@ -8,10 +8,11 @@ iOS的一些演示程序，参考学习的小示例
 
  - **[Flashlight](https://github.com/luowei/iOS-demos/tree/master/Flashlight)**
 一个简单的实现屏幕背景，开灯关灯View程序
+
 ----------
 
  - **[Quiz-Game](https://github.com/luowei/iOS-demos/tree/master/Quiz-Game)**
-    一个简单的iOS示例项目，演示了UITableView，UINavigationView的使用
+一个简单的iOS示例项目，演示了UITableView，UINavigationView的使用
 
 ----------
 
