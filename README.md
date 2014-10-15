@@ -3,6 +3,9 @@ iOS-demos
 
 iOS的一些演示程序，参考学习的小示例
 
+**视频讲述**
+[iOS基础示例](http://www.tudou.com/plcover/xs8jxgy4XvQ/)
+
 
 ----------
 
