@@ -8,7 +8,6 @@ iOS的一些演示程序，参考学习的小示例
 
 ---
 [iOS基础示例](http://www.tudou.com/plcover/xs8jxgy4XvQ/){:target="_blank"}
-
 [iOS基础示例](http://www.tudou.com/plcover/xs8jxgy4XvQ/){target="_blank"}
 ---
 
